@@ -2,6 +2,15 @@
 
 > Wrap and register a Vue component as a custom element.
 
+**Supports IE11 by transpiling the original source code to ES2015.**
+
+**THIS ONLY ENSURES THE WRAPPER FUNCTION WILL WORK IN IE11**
+
+Install using
+```
+npm install --save-dev https://github.com/stijlbreuk/vue-web-component-wrapper.git
+```
+
 ## Compatibility
 
 **[Requires ES2015 classes](https://caniuse.com/es6-class). IE11 and below not supported.**
